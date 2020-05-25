@@ -118,7 +118,9 @@ margin: 0 0 2rem;
 
 #tab-1-content,
 #tab-2-content,
-#tab-3-content {display: none;}
+#tab-3-content {
+    display: none;
+}
 
 
 .show {
@@ -360,6 +362,10 @@ padding: 0.8rem;
 }
 
 @media(max-width: 700px) {
+
+    .showcase{
+        height: auto;
+    }
 
     .showcase::after{
         /* background: rgba(0, 0, 0, 0.6); */
